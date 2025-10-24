@@ -13,6 +13,18 @@ const currencies = {
 // Data paket hosting dengan harga dasar dalam USD untuk konversi
 const discordPlans = [
   {
+    name: 'Free Plan',
+    type: 'Discord Bot',
+    priceUSD: 0,
+    cpu: '50% CPU',
+    ram: '256 MB',
+    storage: '1 GB',
+    storageType: 'SSD Storage',
+    bandwidth: 'Limited',
+    uptime: '24/7 Uptime',
+    popular: false,
+  },
+  {
     name: 'Lite Plan',
     type: 'Discord Bot',
     priceUSD: 0.42,
